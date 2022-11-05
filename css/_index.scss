@@ -1,0 +1,67 @@
+// div {
+//     border: 1px solid red;
+// }
+
+body {
+    background-color: #F3E9DC;
+    scroll-behavior: smooth !important;
+    font-family: 'Philosopher','Noto Sans TC', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.section_title {
+    font-size: 1.5rem;
+    color: #DAB49D;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.title_container {
+    border-top: 2px solid #DAB49D;
+}
+
+.title_container_rl {
+    writing-mode: vertical-rl;
+}
+
+.line_rl {
+    border-left: 1px solid #DAB49D;
+}
+
+.portfolio, .illustration, .print, footer {
+    background-color: #fff;
+}
+
+// rwd
+@mixin padPro {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin pad {
+    @media (max-width: 768px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 576px) {
+        @content;
+    }
+}
+
+@mixin mini-mobile {
+    @media (max-width: 350px) {
+        @content;
+    }
+}
+
+// @include padPro {
+//     background-position: 40% 0%;
+// }

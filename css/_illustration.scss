@@ -1,0 +1,47 @@
+.pic7 {
+    width: 100%;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollmenu::-webkit-scrollbar {
+    width: 0 !important;
+    background: transparent;
+}
+
+.scrollmenu img {
+    width: 290px;
+    display: inline-block;
+    filter: drop-shadow(0px 5px 5px rgba(75, 75, 75, 0.4));
+}
+
+/* 小圖播放控制 */
+.sliderDots {
+    margin: 20px 0 0 0;
+    top: 50px;
+    font-family: 'Philosopher', sans-serif;
+    color: #DAB49D;
+    text-shadow: 0px 1.5px 1.5px rgba(75, 75, 75, 0.6);
+}
+
+.sliderDots li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition-duration: .2s;
+    transition-timing-function: ease-in;
+    font-size: 1rem;
+}
+
+.sliderDots img {
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0px 1px 1px rgba(75, 75, 75, 0.4));
+}

@@ -1,0 +1,242 @@
+.btn_send {
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    transition: all ease .5s;
+    width: 80px;
+    height: 45px;
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #DAB49D;
+    color: #DAB49D;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 1px 2px rgb(75, 75, 75, 0.4);
+    text-shadow: 0px 1px 2px rgba(75, 75, 75, 0.4);
+}
+
+.btnbtn_s:hover {
+    background-color: #fff;
+    color: #b4c1ca;
+    transition-duration: .5s;
+    border: 2px solid #b4c1ca;
+}
+
+.ig, .linelogo {
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+    filter: drop-shadow(0px 2px 2px rgba(75, 75, 75, 0.4));
+}
+
+.btnbtn_s {
+    width: 80px;
+    height: 45px;
+    background-color: #fff;
+
+    /* font-family: 'Philosopher', sans-serif; */
+    border: 2px solid;
+    border-color: #DAB49D;
+    color: #DAB49D;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 1px 2px rgb(75, 75, 75, 0.4);
+    text-shadow: 0px 1px 2px rgba(75, 75, 75, 0.4);
+
+    /* animation: 1.3s ease infinite;      */
+}
+
+.btnbtn_s:hover {
+    background-color: #fff;
+    color: #b4c1ca;
+    transition-duration: .5s;
+    border: 2px solid #b4c1ca;
+}
+
+.copyright {
+    background-color: #F3E9DC;
+}
+
+// ------
+.send_active {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-color: #b4c1ca #b4c1ca #b4c1ca transparent;
+    animation: rotate 1.3s ease infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.send_success {
+    animation: bounce .3s ease-in;
+    background: url("/images/check_mark.svg") no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    background-size: 30px;
+    border-color: #b4c1ca;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(0);
+    }
+}
+
+/* heart icon */
+.heart {
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+svg {
+    text-align: center;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#icon-hearbeat {
+    -webkit-animation-name: heartbeat2;
+    animation-name: heartbeat2;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+}
+
+@-webkit-keyframes heartbeat2 {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat2 {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+/* button */
+/* btn 外框線*/
+.btnbtn:focus {
+    outline: transparent;
+}
+
+.btnbtn {
+    width: 80px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: 'Philosopher', sans-serif;
+    border: 2px solid #DAB49D;
+    color: #DAB49D;
+    font-size: 1rem;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    box-shadow: 0px 1px 2px rgba(75, 75, 75, 0.4);
+    text-shadow: 0px 1px 2px rgba(75, 75, 75, 0.4);
+
+    /* filter: drop-shadow(0px 3px 3px rgba(75, 75, 75, 0.8)); */
+}
+
+.btnbtn:hover {
+    background-color: #fff;
+    color: #b4c1ca;
+    transition-duration: .5s;
+    border: 2px solid #b4c1ca;
+}
+
+.btnbtn_s:focus {
+    outline: transparent;
+}
+
+/*fixed btn*/
+.top {
+    /* width: 80px;
+    height: 45px; */
+    position: fixed;
+    right: 0;
+    bottom: 50px;
+    border-radius: 10px 0 0 10px;
+    margin: 0;
+    padding-right: 10px;
+    border: 2px solid #DAB49D;
+    border-right: transparent !important;
+}

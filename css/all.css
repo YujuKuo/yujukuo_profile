@@ -54,6 +54,11 @@ img {
   height: auto;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   background-color: #F3E9DC;
   scroll-behavior: smooth !important;
@@ -134,11 +139,22 @@ p {
 }
 
 .banner {
+  position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url("/images/toan-nguyen-VIeLuUFzesg-unsplash.jpg");
+  overflow: hidden;
+}
+.banner .img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  min-height: 100vh;
   background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-position: center center;
+  z-index: -1;
 }
 
 .banner_name {

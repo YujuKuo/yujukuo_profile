@@ -1,9 +1,22 @@
 .banner {
+    position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url("/images/toan-nguyen-VIeLuUFzesg-unsplash.jpg");
-    background-size: cover;
-    background-position: center center;
+    overflow: hidden;
+
+    // background-image: url("/images/toan-nguyen-VIeLuUFzesg-unsplash.jpg");
+
+    .img-fluid {
+        position: absolute;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        object-fit: cover;
+        background-position: center center;
+        z-index: -1;
+    }
 }
 
 .banner_name {
